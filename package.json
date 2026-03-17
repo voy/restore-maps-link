@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "rsvg-convert -w 16 -h 16 icon16.svg -o icon16.png && rsvg-convert -w 48 -h 48 icon48.svg -o icon48.png && rsvg-convert -w 128 -h 128 icon128.svg -o icon128.png"
+  }
+}
