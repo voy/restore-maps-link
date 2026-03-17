@@ -42,7 +42,7 @@ function injectMapsButton() {
   // Create the button
   const button = document.createElement('a');
   button.className = 'direct-maps-button';
-  button.textContent = '🗺️ Open in Google Maps';
+  button.textContent = 'Open in Google Maps';
 
   // Build the Google Maps URL
   const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(locationData.query)}`;
@@ -86,7 +86,7 @@ function addDirectLinkToEmbeddedMaps() {
   // Create the button
   const link = document.createElement('a');
   link.className = 'embedded-maps-link direct-maps-button';
-  link.textContent = '🗺️ Open in Google Maps';
+  link.textContent = 'Open in Google Maps';
 
   link.href = `https://www.google.com/maps/search/${encodeURIComponent(query)}`;
   link.target = '_blank';

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Direct Google Maps Link",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds a direct 'Open in Google Maps' button to Google search results",
   "permissions": [],
   "content_scripts": [
